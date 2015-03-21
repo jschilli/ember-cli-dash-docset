@@ -1,0 +1,116 @@
+{
+    "project": {
+        "name": "ember-cli-dash-docset",
+        "description": "The default blueprint for ember-cli addons.",
+        "version": "0.0.0"
+    },
+    "files": {
+        "tests/dummy/app/models/foo.js": {
+            "name": "tests/dummy/app/models/foo.js",
+            "modules": {
+                "test-foo": 1
+            },
+            "classes": {
+                "Foo": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "test-foo": {
+            "name": "test-foo",
+            "submodules": {},
+            "classes": {
+                "Foo": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 3,
+            "description": "Foo data type"
+        }
+    },
+    "classes": {
+        "Foo": {
+            "name": "Foo",
+            "shortname": "Foo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "test-foo",
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 3,
+            "description": "Foo data type"
+        }
+    },
+    "classitems": [
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 9,
+            "itemtype": "property",
+            "name": "barName",
+            "type": "{String}",
+            "default": "null",
+            "class": "Foo",
+            "module": "test-foo"
+        },
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 15,
+            "description": "a bletch",
+            "itemtype": "property",
+            "name": "bletch",
+            "type": "{Bletch}",
+            "class": "Foo",
+            "module": "test-foo"
+        },
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 21,
+            "description": "Clears all bars",
+            "itemtype": "method",
+            "name": "clear",
+            "return": {
+                "description": "an empty foo",
+                "type": "Foo"
+            },
+            "class": "Foo",
+            "module": "test-foo"
+        },
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 30,
+            "description": "answer the first known bar name",
+            "itemtype": "property",
+            "name": "firstObject",
+            "return": {
+                "description": "the first bar or undefined",
+                "type": "String"
+            },
+            "class": "Foo",
+            "module": "test-foo"
+        },
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 39,
+            "description": "bad property\nno type\nshould result in warning",
+            "class": "Foo",
+            "module": "test-foo"
+        },
+        {
+            "file": "tests/dummy/app/models/foo.js",
+            "line": 45,
+            "description": "bad (no name) property\nno type\nshould result in warning",
+            "itemtype": "property",
+            "name": "",
+            "type": "String",
+            "class": "Foo",
+            "module": "test-foo"
+        }
+    ],
+    "warnings": []
+}

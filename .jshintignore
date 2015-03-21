@@ -1,0 +1,6 @@
+node_modules/*
+tests/fixtures/*
+tmp/*
+docs/*
+docset/*
+bower_components/*

@@ -1,25 +1,48 @@
 # Ember-cli-dash-docset
 
-This README outlines the details of collaborating on this Ember addon.
+Generates [Dash](http://kapeli.com/dash) docs from YUIDoc output for ember-cli apps
 
-## Installation
+See also: [ember-cli-yuidoc](https://github.com/cibernox/ember-cli-yuidoc)
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+YUIDocs should be generated prior to running
+
+![Demo](ember-cli-dash-docset.gif)
+
+## Install
+
+`ember install:npm ember-cli-dash-docset`
+
+## Configuration
+
+`dashdoc.json` contains directives that control the generated docset
+
+```
+{
+  "name": "docset-data", <---- output docset name
+  "outdir": "docset",    <---- where to put it
+  "input": "docs",       <---- where to get the YUI generated docs
+  "icon": "tests/fixtures/icon.png", <--- Optional image (32x32 png) 
+  "dash": {
+    "bundleIdentifier": "sample", 
+    "bundleName": "sample",
+    "docSetFamily": "sample",
+    "docSetPlatformFamily": "sample",
+    "docSetIndexPath": "index.html"
+  }
+}
+```
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+`ember ember-cli-dash-docset`
+
+## Contributing
+
+PRs accepted
+
+should pass `jshint .` and have tests
 
 ## Running Tests
 
-* `ember test`
-* `ember test --server`
+* `npm test`
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).

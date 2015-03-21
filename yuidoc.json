@@ -1,0 +1,12 @@
+{
+  "name": "ember-cli-dash-docset",
+  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.0",
+  "options": {
+    "paths": [
+      "tests/dummy"
+    ],
+    "exclude": "vendor",
+    "outdir": "docs"
+  }
+}
