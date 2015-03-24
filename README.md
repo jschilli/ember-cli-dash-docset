@@ -1,4 +1,4 @@
-# Ember-cli-dash-docset
+# Ember-cli-dash-docset [![Build Status][travis-badge]][travis-badge-url]
 
 Generates [Dash](http://kapeli.com/dash) docs from YUIDoc output for ember-cli apps
 
@@ -46,3 +46,5 @@ should pass `jshint .` and have tests
 
 * `npm test`
 
+[travis-badge]: https://travis-ci.org/jschilli/ember-cli-dash-docset.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/jschilli/ember-cli-dash-docset
