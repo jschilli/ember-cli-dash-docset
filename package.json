@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-dash-docset",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generate dash docsets from YUI documentation",
   "directories": {
     "doc": "doc",
