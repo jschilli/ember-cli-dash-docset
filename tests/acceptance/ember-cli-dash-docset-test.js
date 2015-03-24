@@ -25,7 +25,7 @@ describe('Acceptance: ember ember-cli-dash-docset', function() {
     var defaults = {
       "name": "dummy",
         "outdir": outdir,
-        "input": "docs",
+        "input": "tests/fixtures/yuidoc-output",
         "icon": "tests/fixtures/icon.png",
         "dash": {
           "bundleIdentifier": "dummyBI",

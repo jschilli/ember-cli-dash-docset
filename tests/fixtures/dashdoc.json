@@ -1,0 +1,13 @@
+{
+  "name": "docset-data",
+  "outdir": "docset",
+  "input": "tests/fixtures/yuidoc-output",
+  "icon": "tests/fixtures/icon.png",
+  "dash": {
+    "bundleIdentifier": "sample",
+    "bundleName": "sample",
+    "docSetFamily": "sample",
+    "docSetPlatformFamily": "sample",
+    "docSetIndexPath": "index.html"
+  }
+}
