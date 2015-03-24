@@ -37,7 +37,6 @@
     "ember-cli-uglify": "1.0.1",
     "ember-cli-yuidoc": "0.6.1",
     "ember-export-application-global": "^1.0.2",
-    "fs-extra": "^0.16.5",
     "github": "^0.2.3",
     "glob": "^5.0.3",
     "mocha": "^1.18.0",
@@ -56,6 +55,7 @@
     "git-repo-version": "^0.2.0",
     "lodash": "^3.5.0",
     "mkdirp": "^0.5.0",
+    "fs-extra": "^0.16.5",
     "rsvp": "^3.0.17",
     "sqlite3": "^3.0.5"
   },
