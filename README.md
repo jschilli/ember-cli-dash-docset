@@ -1,3 +1,5 @@
+**It's been a minute...  No longer maintaining this so changing status to public archive...**
+
 # Ember-cli-dash-docset [![Build Status][travis-badge]][travis-badge-url]
 
 Generates [Dash](http://kapeli.com/dash) docs from YUIDoc output for ember-cli apps
